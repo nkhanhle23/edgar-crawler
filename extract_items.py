@@ -129,26 +129,12 @@ class ExtractItems:
         self.remove_tables = remove_tables
         # Default list of items to extract
         self.items_list = [
-            "1",
+            
             "1A",
-            "1B",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
             "7",
             "7A",
             "8",
-            "9",
-            "9A",
-            "9B",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
+            
         ]
         # If no specific items to extract are provided, use default list
         self.items_to_extract = (
